@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaruAgil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+         <div class="logo-container">
+                <img src="imagens/caru.png" alt="Caru Logo" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#visao-geral">Visão Geral</a></li>
+                <li><a href="#diagrama">Diagrama</a></li>
+                <li><a href="#atividades">Atividades</a></li>
+                <li><a href="#papeis">Papéis</a></li>
+                <li><a href="#artefatos">Artefatos</a></li>
+                <li><a href="#praticas">Práticas Ágeis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="visao-geral" class="section-block">
+            <h1>Visão Geral do Processo</h1>
+            <p>Bem-vindo à documentação do processo de desenvolvimento ágil do projeto <strong>Carú</strong> para o PDS Corporativo.</p>
+            <div class="card">
+                <h2>Sobre o Processo</h2>
+            <p>
+                O <strong>CaruÁgil</strong> é um processo de desenvolvimento de software ágil definido especificamente 
+                para o projeto Carú, uma plataforma de comunidade e catálogo online voltada 
+                para entusiastas de perfumaria. O sistema permite que os usuários avaliem fragrâncias, 
+                façam resenhas e gerenciem listas personalizadas de perfumes que possuem, desejam ou recomendam.
+            </p>
+            <p>
+                O processo foi concebido para atender às características de um produto focado na experiência do usuário 
+                e no engajamento da comunidade, onde há múltiplos perfis de interações, necessidade de evolução 
+                rápida de funcionalidades e garantia de uma interface agradável. 
+                Para isso, o CaruÁgil combina práticas ágeis com etapas estruturadas de refinamento de requisitos, 
+                ciclos de desenvolvimento iterativos, testes de usabilidade e validação contínua com os stakeholders.
+            </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="diagrama" class="section-block">
+            <h2>Diagrama de Atividades</h2>
+            <div class="diagram-box">
+                <img src="imagens/CARU_AGIL.png" alt="Diagrama de Atividades do Processo" class="responsive-img">
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="atividades" class="section-block">
+            <h2>Descrição das Atividades</h2>
+            <p>Detalhamento de cada etapa do fluxo de ciclo de vida do software:</p>
+            <div class="card">
+                <h3>1. Levantamento e Refinamento de Requisitos</h3>
+                <p>
+                    Nesta etapa inicial, a equipe identifica as reais necessidades da comunidade de perfumaria. É aqui que são definidas ideias como o sistema de notas para os perfumes, a estrutura das resenhas ou como o usuário vai organizar suas prateleiras virtuais (perfumes que "tenho", "quero" e "já tive").
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>2. Backlog do Produto</h3>
+                <p>
+                    Todas as ideias e requisitos levantados são transformados em itens de trabalho e centralizados no Backlog. O objetivo é priorizar o que traz mais valor para os usuários da plataforma primeiro (por exemplo, garantir que a busca por fragrâncias funcione antes de criar o sistema de listas personalizadas).
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>3. Planejamento da Sprint</h3>
+                <p>
+                    A equipe se reúne para analisar o topo do Backlog do Produto, que já foi previamente definido e priorizado pelo Product Owner. Com base na meta estabelecida pelo PO, o time de desenvolvimento seleciona quais itens tem capacidade de entregar no ciclo atual (Sprint) e planeja como a execução técnica será realizada.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>4. Desenvolvimento</h3>
+                <p>
+                    A fase prática onde o código da plataforma Carú ganha vida. Os desenvolvedores trabalham na construção das telas, banco de dados (catálogo de perfumes, marcas e notas olfativas) e nas regras de negócio para que os usuários consigam interagir na comunidade.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>5. Testes</h3>
+                <p>
+                    Assim que uma funcionalidade é codificada, ela passa por testes rigorosos para garantir que não haja falhas. Verificamos se o sistema de avaliação aceita as notas corretamente, se os botões funcionam e se o site se comporta bem em computadores e celulares. Se houver falhas, o fluxo retorna para <strong>Ajustes</strong>; se aprovado, segue em frente.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>6. Validação com os Stakeholders</h3>
+                <p>
+                    Com as funcionalidades prontas e testadas, o incremento do sistema é apresentado para validação (professores/orientadores do PDS ou usuários de teste). O objetivo é coletar feedback real e checar se o que foi desenvolvido realmente atende às expectativas de uma comunidade de perfumaria. Caso precise de mudanças, o item volta para a etapa de  <strong>Ajustes</strong>.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>7. Implantação</h3>
+                <p>
+                    Após a aprovação total na validação, o novo incremento do sistema é publicado e disponibilizado oficialmente no ambiente de produção. A partir deste momento, as novas ferramentas, melhorias e o banco de dados atualizado ficam acessíveis para uso real da comunidade de perfumaria.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>8. Revisão da Sprint</h3>
+                <p>
+                    Uma reunião de encerramento do ciclo onde a equipe analisa o que foi planejado versus o que foi efetivamente entregue e implantado, consolidando os resultados alcançados na plataforma.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>9. Retrospectiva</h3>
+                <p>
+                    A última etapa do ciclo, focada na melhoria contínua da própria equipe. Os membros debatem o que funcionou bem no processo de trabalho e o que pode ser melhorado na comunicação, ferramentas ou código para a próxima Sprint do projeto.
+                </p>
+            </div>
+            </section>
+
+        <hr>
+
+        <section id="papeis" class="section-block">
+            <h2>Papéis e Responsabilidades</h2>
+            <p>Definição dos integrantes da equipe e sua associação com as atividades.</p>
+        <div class="card">
+            <h3>Product Owner (PO)</h3>
+            <p>
+                É o dono do produto e o representante dos interesses da comunidade de perfumaria. O PO é o único responsável por definir, refinar e priorizar o Backlog do Produto. Ele dita o ritmo estratégico, decidindo quais funcionalidades (como o sistema de resenhas ou o filtro por marcas de perfumes) trazem mais valor para o usuário e devem ser criadas primeiro. Além disso, ele é a figura central na atividade de <strong>Validação com os Stakeholders</strong>, garantindo que o incremento atende aos objetivos de negócio.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Scrum Master (SM)</h3>
+            <p>
+                Atua como um facilitador e guardião do processo CaruÁgil. O SM ajuda a equipe a entender e seguir as regras da metodologia, removendo qualquer impedimento técnico ou organizacional que atrapalhe o desenvolvimento. Ele garante que as reuniões de Planejamento, Revisão e Retrospectiva aconteçam de forma produtiva, protegendo o time de desenvolvimento de distrações externas e promovendo a melhoria contínua da equipe.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Equipe de Desenvolvimento (Developers)</h3>
+            <p>
+                É o time multidisciplinar responsável por colocar a mão na massa e transformar os requisitos priorizados em software funcionando. Na atividade de <strong>Planejamento da Sprint</strong>, eles definem quantos itens conseguem entregar e como vão construí-los. Durante o Desenvolvimento e Testes, criam as interfaces, gerenciam o banco de dados de fragrâncias e garantem a qualidade técnica do código. Eles são os únicos responsáveis por gerar o incremento pronto que será levado para a <strong>Implantação</strong>.
+            </p>
+        </div>
+        <div class="card">
+            <h3>QA / Analista de Testes</h3>
+            <p>
+                É o responsável por garantir a qualidade final da plataforma Carú, atuando de forma estratégica nas atividades de <strong>Testes</strong>. O QA cria os cenários de teste, planeja os testes de usabilidade e tenta antecipar qualquer comportamento inesperado do sistema (como tentar avaliar um perfume sem estar logado, ou tentar inserir duas avaliações para o mesmo perfume). Ele trabalha em parceria com o time de desenvolvimento, validando se os critérios de aceitação foram cumpridos para que o incremento chegue seguro à fase de <strong>Validação com os Stakeholders</strong>.
+            </p>
+        </div>
+        </section>
+
+        <hr>
+
+        <section id="artefatos" class="section-block">
+            <h2>Produtos de Trabalho (Artefatos)</h2>
+            <p>Indicação dos artefatos gerados em cada atividade do processo.</p>
+            <div class="card">
+                <p>Escreva aqui os artefatos (Ex: Documento de Visão, Backlog, Atas de Reunião)...</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="praticas" class="section-block">
+            <h2>Práticas Ágeis Aplicadas</h2>
+            <p>Indicação das práticas ágeis utilizadas durante o desenvolvimento.</p>
+            <div class="card">
+                <p>Escreva aqui as práticas (Ex: Daily Scrum, Sprints de 2 semanas, Integração Contínua)...</p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
